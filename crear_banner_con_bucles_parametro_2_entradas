@@ -1,0 +1,19 @@
+fun main() {
+    //Definimos 2 variables 
+    val border = "`-._,-'"
+    val timesToRepeat = 4
+    
+    //Llamamos a la funcion enviandole 2 parametros de entrada
+    printBorder(border, timesToRepeat)
+    //Imprimimos un mensaje
+    println("  Happy Birthday, Jack!")
+    //Llamamos a la funcion enviandole 2 parametros de entrada
+    printBorder(border, timesToRepeat)
+}
+
+fun printBorder(border: String, timesToRepeat: Int) {
+    repeat(timesToRepeat) {
+        print(border)
+    }
+    println()
+}
