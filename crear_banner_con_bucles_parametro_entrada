@@ -1,0 +1,19 @@
+fun main() {
+    //variable que guarda el caracter que se usará como estilo de borde
+    val border = "%"
+    //llamamos a la funcion usando como parametro la variable border
+    printBorder(border)
+    //Imprimir mensaje personalizado
+    println("Happy Birthday, Jack!")
+    //llamamos a la funcion usando como parametro la variable border
+    printBorder(border)
+}
+
+fun printBorder(border: String) {
+    //repetir 23 veces la siguiente instruccion usando repeat como blucle
+    repeat(23) {
+        print(border)
+    }
+    //agregar una linea
+    println()
+}
