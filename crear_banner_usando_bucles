@@ -1,6 +1,6 @@
 fun main() {
     printBorder()
-    println("Happy Birthday, Jhansi!")
+    println("Happy Birthday, Jack!")
     printBorder()
 }
 
